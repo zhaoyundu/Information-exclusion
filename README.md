@@ -1,2 +1,2 @@
 # Information-exclusion
-matlab code for numerical bounds on information gain
+Code to accompany: Information exclusion in quantum measurements and uncertainty relations
