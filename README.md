@@ -1,4 +1,3 @@
-# Information-exclusion
 ## Code to accompany: [*Information exclusion in quantum measurements and uncertainty relations*](https://arxiv.org/abs/2210.00958)
 **Shan Huang, Hua-Lei Yin, Zeng-Bing Chen, and Shengjun Wu**
 
