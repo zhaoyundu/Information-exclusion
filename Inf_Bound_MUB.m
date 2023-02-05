@@ -1,4 +1,5 @@
-d=2;%dimension
+% test for editing
+d=2;%dimension 
 T=3;%the number of measurement bases
 [A,MUB]=mub(d);
 B=eye(d); %---T random unitaries-----------
