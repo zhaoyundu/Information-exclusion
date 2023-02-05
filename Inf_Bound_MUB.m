@@ -24,7 +24,7 @@ parfor j=1:10000
   %random unitary
   v=2*pi*rand(1,d^2-1).^3;v=reshape(v,[1,1,d^2-1]);u=expm(1i*sum(times(v,A),3));
   state=transpose(conj(u))*state*u;
-  p=diag(conj(B)*state*transpose(B)); %probability vector for all outcomes
+  p=diag(conj(B)*state*transpose(B)); %probability vector for outcomes
   p=p-1/d;
   inf_gain=[inf_gain sum(p.^2)];      %sum of information gain  
 end
